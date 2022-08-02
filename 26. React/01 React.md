@@ -14,7 +14,7 @@
 
   최초에 서버로 부터 HTML을 전달 받고 페이지의 변경이 필요할 때 변경이 필요한 부분을 JSON(JavaScript Object Notation)으로 전달 받는데, 이때 페이지에서 변경된 부분만 계산하여 다시 그리게 됨
 
-![image-20220801182402648](C:\Users\chanc\AppData\Roaming\Typora\typora-user-images\image-20220801182402648.png)
+![01 React](https://user-images.githubusercontent.com/46704032/182274874-a7786d83-3ddf-43e4-98af-e9dda064964b.png)
 
 
 
