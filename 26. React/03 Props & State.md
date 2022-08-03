@@ -155,7 +155,7 @@ const Names = () => {
   * Object를 직접 변경하는 경우 React가 변경을 감지 하지 못함
   * user의 grade가 변경되었지만, user의 내용을 담는 Object 자체가 변경된 것은 아님
 
-  ![image-20220803130337910](C:\Users\chanc\AppData\Roaming\Typora\typora-user-images\image-20220803130337910.png)
+  ![03 State1](https://user-images.githubusercontent.com/46704032/182531437-f6ca2134-0c7d-4bb8-b09d-2043195c7715.png)
 
   ```react
   const[user, setUser] = useState({ name: "민수", grade: 1 })
@@ -167,7 +167,7 @@ const Names = () => {
 
   * 기존의 user 내용을 새로운 Object에 담고 grade를 변경함
 
-  ![image-20220803130411372](C:\Users\chanc\AppData\Roaming\Typora\typora-user-images\image-20220803130411372.png)
+  ![03 State2](https://user-images.githubusercontent.com/46704032/182531492-bda86b64-914c-4783-9113-3b300a0b8cca.png)
 
   ```react
   const[user, setUser] = useState({name: '민수',grade: 1 })
