@@ -257,7 +257,7 @@ DIV1
 */
 ```
 
-<img src="C:\Users\chanc\Downloads\04 Event.png" alt="04 Event" style="zoom:80%;" />
+![04 Event](https://user-images.githubusercontent.com/46704032/183041821-9f2718fc-e56c-4a15-9bbd-40c886cf7213.png)
 
 * `div`를 클릭하면 해당하는 class의 이름이 console로 출력되는 코드
 * JavaScript는 기본적으로 bubbling이 발생하기 때문에 `<div class="DIV3">DIV3</div>`를 click한다면 console에는 DIV3, DIV2, DIV1이 순서대로 출력됨
