@@ -1,12 +1,12 @@
 package api.test;
 
-import model.api.BookArrayAPI;
+import model.api.BookArray;
 import model.vo.BookVO;
 
-public class BookArrayAPITest {
+public class BookArrayTest {
 	public static void main(String[] args) {
 		// 3권의 Book 데이터를 배열에 저장하여 출력
-		BookArrayAPI list = new BookArrayAPI();
+		BookArray list = new BookArray();
 		
 		list.add(new BookVO("Java", 15000, "한빛", "홍길동"));
 		list.add(new BookVO("JavaScript", 17000, "대림", "나길동"));

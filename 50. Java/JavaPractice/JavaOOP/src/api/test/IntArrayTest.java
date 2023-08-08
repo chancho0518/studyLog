@@ -1,11 +1,11 @@
 package api.test;
 
-import model.api.IntArrayAPI;
+import model.api.IntArray;
 
-public class IntArrayAPITest {
+public class IntArrayTest {
 	public static void main(String[] args) {
 		// 정수 3개를 배열에 저정하고 출력
-		IntArrayAPI list = new IntArrayAPI();
+		IntArray list = new IntArray();
 		
 		list.add(1);
 		list.add(2);

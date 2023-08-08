@@ -2,17 +2,19 @@ package model.api;
 
 import java.util.Arrays;
 
-public class IntArrayAPI {
+import model.vo.BookVO;
+
+public class BookArray {
 	private int arrayCapacity = 1;
-	private int[] elements;
+	private BookVO[] elements;
 	private int size = 0;
 	
 	
 	// Array 생성동작
 	// TODO
 	// 인수로 배열의 크기 설정
-	public IntArrayAPI() {
-		elements = new int[1];
+	public BookArray() {
+		elements = new BookVO[1];
 	}
 	
 	// Array의 원소의 개수를 구하는 동작
@@ -21,7 +23,7 @@ public class IntArrayAPI {
 	}
 	
 	// Array 저장동작
-	public void add(int element) {
+	public void add(BookVO element) {
 		if(size == elements.length) {
 			ensureCapacity();
 		}
@@ -29,7 +31,7 @@ public class IntArrayAPI {
 	}
 	
 	// Array 반환동작: index가 음수일 경우도 적용
-	public int get(int index) {
+	public BookVO get(int index) {
 		if(index < -size || index >= size) {
 			throw new IndexOutOfBoundsException("Index 범위초과!!");
 		} else if (index >= 0) {
