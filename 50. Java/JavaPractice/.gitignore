@@ -1,0 +1,40 @@
+/.metadata/
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# IntelliJ IDEA
+.idea/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Maven
+target/
+
+# Gradle
+build/
+
+# NetBeans
+nbproject/private/
+build/
+
+# Compiled binaries for native platforms
+target/
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Local configuration files
+application.properties
+
+# Spring Boot
+mvnw
+mvnw.cmd
