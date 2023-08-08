@@ -1,4 +1,4 @@
-package api.model;
+package model.api;
 
 import java.util.Arrays;
 
@@ -9,6 +9,8 @@ public class IntArrayAPI {
 	
 	
 	// Array 생성동작
+	// TODO
+	// 인수로 배열의 크기 설정
 	public IntArrayAPI() {
 		elements = new int[1];
 	}
@@ -35,10 +37,9 @@ public class IntArrayAPI {
 		} else {
 			return elements[index+size];
 		}
-
 	}
 	
-	// 인수로 배열의 크기 설정
+	// TODO
 	// pop(): Array의 마지막 요소 삭제하며 삭제한 값은 출력하여 확인
 	// shift(): Array의 첫 번재 요소 삭제하며 삭제한 값은 출력하여 확인
 	// splice(): Array의 요소 삭제하며 첫 번째 인수는 인덱스를 설정하고 두 번째 인수는 삭제할 Array의 개수이고 삭제한 값은 Array로 출력   
