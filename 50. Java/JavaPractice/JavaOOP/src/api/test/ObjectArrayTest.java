@@ -14,6 +14,8 @@ public class ObjectArrayTest {
 		list.add(new ObjectC()); // Upcasting Object element = new c();
 		list.add(new BookVO("Java", 15000, "한빛", "홍길동")); // Upcasting Object element = new BookVO();
 		
+		// TODO
+		// Downcasing을 위해 instance값을 반환하는 코드 구현
 		ObjectA a = (ObjectA)list.get(0);
 		ObjectB b = (ObjectB)list.get(1);
 		ObjectC c = (ObjectC)list.get(2);
