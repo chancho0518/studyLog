@@ -1,18 +1,20 @@
-package model.api;
+package apiexem.model;
 
 import java.util.Arrays;
 
-public class IntArray {
+import apiexem.vo.BookVO;
+
+public class ObjectArray {
 	private int arrayCapacity = 1;
-	private int[] elements;
+	private Object[] elements;
 	private int size = 0;
 	
 	
 	// Array 생성동작
 	// TODO
 	// 인수로 배열의 크기 설정
-	public IntArray() {
-		elements = new int[1];
+	public ObjectArray() {
+		elements = new Object[1];
 	}
 	
 	// Array의 원소의 개수를 구하는 동작
@@ -21,7 +23,8 @@ public class IntArray {
 	}
 	
 	// Array 저장동작
-	public void add(int element) {
+	// 다형성 인수
+	public void add(Object element) {
 		if(size == elements.length) {
 			ensureCapacity();
 		}
@@ -29,7 +32,7 @@ public class IntArray {
 	}
 	
 	// Array 반환동작: index가 음수일 경우도 적용
-	public int get(int index) {
+	public Object get(int index) {
 		if(index < -size || index >= size) {
 			throw new IndexOutOfBoundsException("Index 범위초과!!");
 		} else if (index >= 0) {

@@ -1,4 +1,4 @@
-package exercise.aboutapi;
+package apiexem.exercise;
 
 public class IntArrayBasic {
 	public static void main(String[] args) {

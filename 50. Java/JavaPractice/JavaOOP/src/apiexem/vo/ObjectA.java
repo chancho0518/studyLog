@@ -1,4 +1,4 @@
-package model.vo;
+package apiexem.vo;
 
 public class ObjectA {
 	public void display() {

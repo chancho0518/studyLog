@@ -1,4 +1,4 @@
-package model.vo;
+package apiexem.vo;
 
 public class BookVO {
 	// 멤버변수, 상태정보, 속성(property)

@@ -1,7 +1,7 @@
-package exercise.aboutapi;
+package apiexem.exercise;
 
-import model.api.ObjectArray;
-import model.vo.*;
+import apiexem.model.ObjectArray;
+import apiexem.vo.*;
 
 public class ObjectArrayTest {
 	public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package exercise.aboutapi;
+package apiexem.exercise;
 
-import model.api.IntArray;
+import apiexem.model.IntArray;
 
 public class IntArrayTest {
 	public static void main(String[] args) {
