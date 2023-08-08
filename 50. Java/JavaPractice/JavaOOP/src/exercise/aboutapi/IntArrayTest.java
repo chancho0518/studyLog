@@ -1,4 +1,4 @@
-package api.test;
+package exercise.aboutapi;
 
 import model.api.IntArray;
 

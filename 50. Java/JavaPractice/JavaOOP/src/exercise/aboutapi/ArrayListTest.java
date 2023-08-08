@@ -1,4 +1,4 @@
-package api.test;
+package exercise.aboutapi;
 
 import java.util.ArrayList;
 
