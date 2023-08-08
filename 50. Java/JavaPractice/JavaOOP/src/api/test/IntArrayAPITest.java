@@ -1,6 +1,6 @@
-package exercise.api;
+package api.test;
 
-import api.model.IntArrayAPI;
+import model.api.IntArrayAPI;
 
 public class IntArrayAPITest {
 	public static void main(String[] args) {

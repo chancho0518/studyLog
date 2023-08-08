@@ -1,4 +1,4 @@
-package exercise.api;
+package api.test;
 
 public class IntArrayBasic {
 	public static void main(String[] args) {
