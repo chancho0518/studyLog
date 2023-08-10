@@ -1,4 +1,4 @@
-package listexem.exercise;
+package collectionapiexem.exercise;
 
 import java.util.ArrayList;
 
