@@ -22,7 +22,7 @@ public class Customer {
 	}
 	
 	public Customer(String name) {
-		this.customerID = "SILVER" + serialNums++;
+		this.customerID = "Customer" + serialNums++;
 		this.name = name;
 		this.customerGrade = "SILVER";
 		this.bonusPoint = 0;

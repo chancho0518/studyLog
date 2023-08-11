@@ -8,14 +8,16 @@ public class Departmentstore {
 		Staff staff = new Staff();
 		staff.setSalesAmount(1_000_000);
 		
-		
-		Customer regularCustom = new Customer("이가자"); 
+		Customer regularCustom = new Customer("이가자");
+		Customer regularGold = new VIPCustomer("금사빠");
 		Customer regularVip = new VIPCustomer("나길동");
 				
 		Customer[] customerQueue = {
 			new Customer("홍길동"), regularCustom, regularVip, new Customer("삼길동"),
 			regularVip, regularCustom, new VIPCustomer("하기자"), regularCustom,
-			new Customer("홍삼사"), regularVip, regularCustom, regularVip 
+			new Customer("홍삼사"), regularVip, regularCustom, regularVip,
+			new GoldCustomer("금동이"), new Customer("정환용"), regularGold, new Customer("정상훈"),
+			regularCustom, regularGold, new Customer("이길여"), new VIPCustomer("하기자")
 		};
 		
 		// 시나리오
