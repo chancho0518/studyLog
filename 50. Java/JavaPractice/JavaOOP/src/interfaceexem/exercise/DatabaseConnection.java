@@ -34,4 +34,5 @@ public class DatabaseConnection {
 		
 		conn.getConnection(mssqlUrl, mssqlID, mssqlPW);
 	}
+	
 }
