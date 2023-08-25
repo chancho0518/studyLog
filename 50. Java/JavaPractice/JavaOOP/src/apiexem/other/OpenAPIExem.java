@@ -11,7 +11,7 @@ import com.google.gson.JsonParser;
 public class OpenAPIExem {
 
 	public static void main(String[] args) {
-		String apiKey= "d78e07fa8bb6a37fa7cef96816649838";
+		String apiKey= "APIKey";
 		String city = "Singapore";
 		String urlString = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&lang=kr&appid=" + apiKey + "&units=metric";
 		
