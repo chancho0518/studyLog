@@ -1,4 +1,4 @@
-package interfaceexem.exercise;
+package interfaceexam.exercise;
 
 public class Baby {
 	

@@ -1,4 +1,4 @@
-package interfaceexem.model;
+package interfaceexam.model;
 
 // OracleDriver는 Oracle에서 제작하여 배포(Driver)
 public class OracleDriver implements Connection {

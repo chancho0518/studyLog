@@ -1,6 +1,6 @@
-package apiexem.exercise;
+package apiexam.exercise;
 
-import apiexem.model.IntArray;
+import apiexam.model.IntArray;
 
 public class IntArrayTest {
 	public static void main(String[] args) {

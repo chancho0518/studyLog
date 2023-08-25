@@ -1,4 +1,4 @@
-package apiexem.vo;
+package apiexam.vo;
 
 public class ObjectA {
 	public void display() {

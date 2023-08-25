@@ -1,8 +1,8 @@
-package apiexem.model;
+package apiexam.model;
 
 import java.util.Arrays;
 
-import apiexem.vo.BookVO;
+import apiexam.vo.BookVO;
 
 public class BookArray {
 	private int arrayCapacity = 1;

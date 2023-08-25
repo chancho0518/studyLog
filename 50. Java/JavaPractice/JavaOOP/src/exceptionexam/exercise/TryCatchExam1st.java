@@ -1,4 +1,4 @@
-package exceptionexem.exercise;
+package exceptionexam.exercise;
 
 public class TryCatchExam1st {
 

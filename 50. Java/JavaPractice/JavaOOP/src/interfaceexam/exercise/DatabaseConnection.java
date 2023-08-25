@@ -1,9 +1,9 @@
-package interfaceexem.exercise;
+package interfaceexam.exercise;
 
-import interfaceexem.model.Connection;
-import interfaceexem.model.MSSQLDriver;
-import interfaceexem.model.MySQLDriver;
-import interfaceexem.model.OracleDriver;
+import interfaceexam.model.Connection;
+import interfaceexam.model.MSSQLDriver;
+import interfaceexam.model.MySQLDriver;
+import interfaceexam.model.OracleDriver;
 
 public class DatabaseConnection {
 	public static void main(String[] args) {

@@ -1,8 +1,8 @@
-package collectionapiexem.exercise;
+package collectionapiexam.exercise;
 
 import java.util.ArrayList;
 
-import collectionapiexem.vo.MovieVO;
+import collectionapiexam.vo.MovieVO;
 
 public class MovieListTest {
 	public static void main(String[] args) {

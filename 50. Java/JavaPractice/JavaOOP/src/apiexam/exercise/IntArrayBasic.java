@@ -1,4 +1,4 @@
-package apiexem.exercise;
+package apiexam.exercise;
 
 public class IntArrayBasic {
 	public static void main(String[] args) {

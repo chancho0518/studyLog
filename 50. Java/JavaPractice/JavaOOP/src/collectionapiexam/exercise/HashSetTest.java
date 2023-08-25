@@ -1,4 +1,4 @@
-package collectionapiexem.exercise;
+package collectionapiexam.exercise;
 
 import java.util.HashSet;
 import java.util.Set;

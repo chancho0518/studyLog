@@ -1,4 +1,4 @@
-package exceptionexem.exercise;
+package exceptionexam.exercise;
 
 import java.io.FileInputStream;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package apiexem.other;
+package apiexam.other;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

@@ -1,4 +1,4 @@
-package interfaceexem.model;
+package interfaceexam.model;
 
 // interface는 Java에서 제공
 public interface Connection {

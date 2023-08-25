@@ -1,4 +1,4 @@
-package interfaceexem.exercise;
+package interfaceexam.exercise;
 
 public abstract class FamilyMan implements FamilyRole {
 	

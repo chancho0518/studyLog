@@ -1,4 +1,4 @@
-package interfaceexem.model;
+package interfaceexam.model;
 
 public class MSSQLDriver implements Connection {
 	

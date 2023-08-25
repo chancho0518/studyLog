@@ -1,4 +1,4 @@
-package collectionapiexem.exercise;
+package collectionapiexam.exercise;
 
 import java.util.HashMap;
 import java.util.Map;

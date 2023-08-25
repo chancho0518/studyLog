@@ -1,7 +1,7 @@
-package apiexem.exercise;
+package apiexam.exercise;
 
-import apiexem.model.BookArray;
-import apiexem.vo.BookVO;
+import apiexam.model.BookArray;
+import apiexam.vo.BookVO;
 
 public class BookArrayTest {
 	public static void main(String[] args) {

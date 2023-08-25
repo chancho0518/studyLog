@@ -1,4 +1,4 @@
-package apiexem.model;
+package apiexam.model;
 
 import java.util.Arrays;
 

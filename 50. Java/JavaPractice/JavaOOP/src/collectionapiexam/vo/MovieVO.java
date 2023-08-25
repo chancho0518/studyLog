@@ -1,4 +1,4 @@
-package collectionapiexem.vo;
+package collectionapiexam.vo;
 
 public class MovieVO {
 	// 멤버변수, 상태정보, 속성(property)

@@ -1,8 +1,8 @@
-package apiexem.exercise;
+package apiexam.exercise;
 
 import java.util.ArrayList;
 
-import apiexem.vo.BookVO;
+import apiexam.vo.BookVO;
 
 public class ArrayListTest {
 	public static void main(String[] args) {
