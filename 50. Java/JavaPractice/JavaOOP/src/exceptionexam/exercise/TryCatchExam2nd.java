@@ -3,7 +3,7 @@ package exceptionexam.exercise;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TryCatchExem2nd {
+public class TryCatchExam2nd {
 	public static void main(String[] args) {
 		System.out.println("메인 메소드 실행!!!");
 		

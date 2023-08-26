@@ -8,7 +8,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 
-public class JsoupExem {
+public class JsoupExam {
 	public static void main(String[] args) {
 		String url = "https://sum.su.or.kr:8888/bible/today";
 		

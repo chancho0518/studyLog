@@ -2,7 +2,7 @@ package exceptionexam.exercise;
 
 import java.io.*;
 
-public class ExceptionExem {
+public class ExceptionExam {
 	public static void main(String[] args) {
 		System.out.println("메인메소드 시작!!!");
 		
