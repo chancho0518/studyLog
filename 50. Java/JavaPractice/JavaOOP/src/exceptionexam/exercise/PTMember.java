@@ -14,7 +14,6 @@ public class PTMember {
 			// 고객에게 알람 보내기
 		}
 		
-		
 		System.out.println(member);
 
 	}
