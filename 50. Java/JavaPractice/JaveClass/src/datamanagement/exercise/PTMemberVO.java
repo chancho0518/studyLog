@@ -1,5 +1,7 @@
 package datamanagement.exercise;
 
+import java.time.LocalDateTime;
+
 public class PTMemberVO {
 	
 	private String ID;
@@ -7,6 +9,7 @@ public class PTMemberVO {
 	private int height;
 	private int weight;
 	private Gender gender;
+	private LocalDateTime enrollTime;
 	
 	public PTMemberVO() {
 	}
@@ -20,6 +23,7 @@ public class PTMemberVO {
 		this.height = height;
 		this.weight = weight;
 		this.gender = Gender.valueOfTerm(gender);
+		this.enrollTime = LocalDateTime.now();
 	}
 
 	public void setId(String id) {
@@ -32,7 +36,8 @@ public class PTMemberVO {
 
 	@Override
 	public String toString() {
-		return "PTMember [id=" + ID + ", name=" + name + ", height=" + height + ", weight=" + weight + ", gender=" + gender + "]";
+		return "PTMemberVO [ID=" + ID + ", name=" + name + ", height=" + height + ", weight=" + weight + ", gender="
+				+ gender + ", enrollTime=" + enrollTime + "]";
 	}
-	
+
 }
