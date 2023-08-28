@@ -1,4 +1,4 @@
-package enumexam.datamanagement;
+package datamanagement.enumexam;
 
 // sunday, monday, tuesday, wednesday, thursday, friday, saturday 
 public enum Day {

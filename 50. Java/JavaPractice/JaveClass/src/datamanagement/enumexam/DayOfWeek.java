@@ -1,4 +1,4 @@
-package enumexam.datamanagement;
+package datamanagement.enumexam;
 
 import java.util.Arrays;
 

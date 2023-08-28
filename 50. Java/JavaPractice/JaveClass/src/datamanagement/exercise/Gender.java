@@ -1,4 +1,4 @@
-package enumexam.exercise;
+package datamanagement.exercise;
 
 public enum Gender {
 	FEMALE("Female", "여성"),

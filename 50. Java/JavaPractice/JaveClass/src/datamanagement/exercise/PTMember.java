@@ -1,4 +1,4 @@
-package enumexam.exercise;
+package datamanagement.exercise;
 
 public class PTMember {
 
